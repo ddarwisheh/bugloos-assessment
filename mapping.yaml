@@ -1,7 +1,9 @@
+#the structer this database_field_key: api_response_key
 slug: id
 fullname: name
 emailaddress: email
 local:
+ #each nested object is should to have a 'api_key_name' that reprsit the api response key
  api_key_name: location
  country: city
  house:
