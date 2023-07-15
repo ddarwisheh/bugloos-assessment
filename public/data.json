@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "location": {
+            "city": "tury",
+            "home": {
+                "room": 1
+            }
+        }
+    }
+]

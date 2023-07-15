@@ -1,0 +1,9 @@
+slug: id
+fullname: name
+emailaddress: email
+local:
+ api_key_name: location
+ country: city
+ house:
+   api_key_name: home
+   roomUpdated: room
