@@ -2,4 +2,10 @@
     <id>2</id>
     <name>John Doe xml</name>
     <email>john.doe@example.com xml</email>
+    <location>
+        <city> tury </city>
+        <home>
+            <room> 1 </room>
+        </home>
+    </location>
 </data>

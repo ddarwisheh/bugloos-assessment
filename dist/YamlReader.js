@@ -26,8 +26,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.loadMapping = void 0;
 const fs = __importStar(require("fs"));
 const yaml = __importStar(require("js-yaml"));
+/*
+    - load ymal files
+ */
 function loadMapping(file) {
-    const fileContent = fs.readFileSync(file, 'utf8');
-    return yaml.load(fileContent);
+    try {
+        const fileContent = fs.readFileSync(file, 'utf8');
+        return yaml.load(fileContent);
+    }
+    catch (error) {
+        throw new Error(`Failed to load mapping from file: ${file}`);
+    }
 }
 exports.loadMapping = loadMapping;
